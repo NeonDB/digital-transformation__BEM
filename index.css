@@ -1,0 +1,206 @@
+@import url(./views/fonts/RWDewi/stylesheet.css);
+html {
+    font-family: "RF Dewi";
+    font-size: 14px;
+    line-height: 22px;
+    word-wrap: break-word;    
+}
+body {
+    margin: 0 auto;
+}
+header {
+    background: url(./views/header-top/header-top__background/02.svg) center top 20%/ 320px no-repeat, url(./views/header-top/header-top__background/01.png) right 0% top 90%/120px no-repeat #1822B7;
+    color: #fff;
+    min-height: 640px;
+}
+
+.header-top {
+    padding: 20px;
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.header-top__column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header-top__logo {
+    text-decoration: none;
+    padding: 5px;
+}
+.desktop__hidden {
+}
+.mobile__hidden {
+    display: none;
+}
+.header-bottom {
+    padding: 60px 0px;
+    margin: 20px 20px;
+}
+.header-bottom__title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.header-bottom__title h1 {
+    font-family: "RF Dewi Expanded";
+    font-size: 39px;
+    font-weight: 900;
+    line-height: 43px;
+    text-transform: uppercase;    
+}
+.header-bottom__list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.7);
+}
+.header-bottom__item {
+    max-width: 60%;
+    padding: 10px;
+}
+.header-bottom__subtitle {
+    color: rgba(255, 255, 255, 1);
+}
+main {
+    margin: 0 auto;
+}
+.main-block {
+    display: flex;
+    flex-flow: wrap column;
+    margin: 20px;
+}
+.main-block__column {
+    padding: 20px 0px;
+}
+.main-block__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;  
+}
+.three-dots::before {
+    position: absolute ;
+    content: "";
+    width: 67px;
+    height: 17px;
+    background-image: url('./views/main-block/background/01.svg');
+    margin-top: 50px;
+}
+.main-block__title h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;      
+}
+.main-block__subtitle h4 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 37px;   
+}
+.main-block__text {
+}
+.main-block__border-block {
+    border: 1px solid #E3A655;
+    border-radius: 15px;
+    padding: 10px 10px 40px 10px;
+}
+.border__title {
+    margin: 20px 0px 20px 0;
+}
+.list-block {
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #F3F4FB;
+}
+.list-block__list {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.list-block__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;  
+}
+.list-block__item {
+}
+.list-block__icons {
+    display: flex;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.list-block__icons-image {
+    background-color: #fff;
+    background-size: 76px;
+    object-fit: fill;
+}
+.list-block__image {
+}
+.tablet__hidden {
+}
+.list_block__button-block {
+    padding-top: 20px;
+}
+.list-block__button {
+    background-color: transparent;
+    border: 2px solid #1822B7;
+    border-radius: 10px;
+    color: #1822B7;
+    min-width: 100%;
+    min-height: 40px;
+    font-weight: 600;
+}
+.button__text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;    
+}
+.founders-block {
+    padding: 30px 10px;
+}
+.founders-block__column {
+}
+.founders-block__title {
+    padding: 20px 0px;
+    font-family: "RF Dewi Extended";
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;    
+}
+.founders-block__text {
+    padding-top: 20px;
+}
+.text-type__middle-size {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;    
+    
+}
+.text-type__big-size {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28px;    
+}
+footer {
+    display: flex;
+    background-color:rgba(24, 34, 183, 0.05);
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-block {
+    padding: 5px;
+    color: rgba(2, 2, 13, 0.6);
+}
+.footer-block__anchor {
+    color: rgba(2, 2, 13, 0.6);
+
+}
