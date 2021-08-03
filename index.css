@@ -3,7 +3,8 @@ html {
     font-family: "RF Dewi";
     font-size: 14px;
     line-height: 22px;
-    word-wrap: break-word;    
+    word-wrap: break-word;
+    max-width: 1440px;    
 }
 body {
     margin: 0 auto;
